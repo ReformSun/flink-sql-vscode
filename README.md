@@ -2,4 +2,3 @@
 
 
 ## Features
-![Screenshot](./extras/screenshot.png)
