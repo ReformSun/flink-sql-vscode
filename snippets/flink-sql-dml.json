@@ -1,0 +1,12 @@
+{
+    "Insert statement": {
+        "prefix": "insert",
+        "body": [
+            "INSERT ${1|INTO,OVERWRITE|} TABLE ${2:schema_name}.${3:table_name}",
+            "SELECT",
+            "    ${4:column_names}",
+            "FROM",
+            "    ${5:source_schema_name}.${6:source_table_name};"
+        ]
+    }
+}

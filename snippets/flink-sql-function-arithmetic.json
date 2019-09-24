@@ -1,0 +1,80 @@
+{
+     "+ numeric" : {
+        "body" : [
+          "+ ${1:numeric}"
+        ],
+        "prefix" : "++"
+      },
+      "- numeric" : {
+        "body" : [
+          "- ${1:numeric}"
+        ],
+        "prefix" : "--"
+      },
+      "numeric1 - numeric2" : {
+        "body" : [
+          "${1:numeric1} - ${2:numeric2}"
+        ],
+        "prefix" : "-"
+      },
+      "numeric1 + numeric2" : {
+        "body" : [
+          "${1:numeric1} + ${2:numeric2}"
+        ],
+        "prefix" : "+"
+      },
+      "numeric1 * numeric2" : {
+        "body" : [
+          "${1:numeric1} * ${2:numeric2}"
+        ],
+        "prefix" : "*"
+      },
+      "numeric1 / numeric2" : {
+        "body" : [
+          "${1:numeric1} / ${2:numeric2}"
+        ],
+        "prefix" : "/"
+      },
+      "POWER" : {
+        "body" : [
+          "POWER(${1:numeric1},${2:numeric2})"
+        ],
+        "prefix" : "power"
+      },
+      "ABS" : {
+        "body" : [
+          "ABS(${1:numeric1})"
+        ],
+        "prefix" : "abs"
+      },
+      "MOD" : {
+        "body" : [
+          "MOD(${1:numeric1},${2:numeric2})"
+        ],
+        "prefix" : "mod"
+      },
+      "SQRT" : {
+        "body" : [
+          "SQRT(${1:numeric})"
+        ],
+        "prefix" : "sqrt"
+      },
+      "LN" : {
+        "body" : [
+          "LN(${1:numeric})"
+        ],
+        "prefix" : "ln"
+      },
+      "LOG10" : {
+        "body" : [
+          "LOG10(${1:numeric})"
+        ],
+        "prefix" : "log10"
+      },
+      "LOG2" : {
+        "body" : [
+          "LOG2(${1:numeric})"
+        ],
+        "prefix" : "log2"
+      }
+}

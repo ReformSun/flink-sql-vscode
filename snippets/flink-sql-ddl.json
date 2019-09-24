@@ -1,0 +1,22 @@
+{
+    "Create table from query": {
+        "prefix": "create",
+        "body": [
+            "CREATE TABLE IF NOT EXISTS ${1:schema_name}.${2:table_name} AS ",
+            "SELECT",
+            "    ${3:column_names}",
+            "FROM",
+            "    ${4:source_schema_name}.${5:source_table_name};"
+        ],
+        "description": "Create a table from the results of a query"
+    },
+    "Create table from table": {
+        "prefix": "create",
+        "body": [
+            "CREATE TABLE IF NOT EXISTS ${1:schema_name}.${2:table_name}",
+            "LIKE ${3:source_table_schema}.${4:source_table_name}",
+            ";"
+        ],
+        "description": "Create a table with the same format and structure as another table."
+    }
+}

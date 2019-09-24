@@ -1,0 +1,74 @@
+{
+    "string1 || string2" : {
+        "body" : [
+          "${1:string1} || ${2:string2}"
+        ],
+        "prefix" : "||"
+      },
+      "Char_length" : {
+        "body" : [
+          "CHAR_LENGTH(${1:string})"
+        ],
+        "prefix" : "char_length"
+      },
+      "Character_length" : {
+        "body" : [
+          "CHARACTER_LENGTH(${1:string})"
+        ],
+        "prefix" : "character_length"
+      },
+      "Upper" : {
+        "body" : [
+          "UPPER(${1:string})"
+        ],
+        "prefix" : "upper"
+      },
+      "Lower" : {
+        "body" : [
+          "LOWER(${1:string})"
+        ],
+        "prefix" : "lower"
+      },
+      "Position" : {
+        "body" : [
+          "POSITION(${1:string1} IN ${2:string2})"
+        ],
+        "prefix" : "position"
+      },
+      "Ltrim" : {
+        "body" : [
+          "LTRIM(${1:string1})"
+        ],
+        "prefix" : "ltrim"
+      },
+      "Rtrim" : {
+        "body" : [
+          "RTRIM(${1:string1})"
+        ],
+        "prefix" : "rtrim"
+      },
+      "Repeat" : {
+        "body" : [
+          "REPEAT(${1:string1},${2:integer})"
+        ],
+        "prefix" : "repeat"
+      },
+      "REGEXP_REPLACE" : {
+        "body" : [
+          "REGEXP_REPLACE(${1:string1},${2:string2},${3:string3})"
+        ],
+        "prefix" : "regexp_replace"
+      },
+      "CONCAT" : {
+        "body" : [
+          "CONCAT(${1:string1},${2:string2},${3:string3}....)"
+        ],
+        "prefix" : "concat"
+      },
+      "CONCAT_WS" : {
+        "body" : [
+          "CONCAT_WS(${1:string1},${2:string2},${3:string3}....)"
+        ],
+        "prefix" : "concat_ws"
+      }
+}

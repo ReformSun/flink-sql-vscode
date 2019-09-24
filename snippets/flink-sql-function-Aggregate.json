@@ -1,0 +1,63 @@
+{
+    "Count" : {
+        "body" : [
+          "COUNT(${1:field})"
+        ],
+        "prefix" : "count"
+      },
+      "Avg" : {
+        "body" : [
+          "AVG(${1:field})"
+        ],
+        "prefix" : "avg"
+      },
+      "Sum" : {
+        "body" : [
+          "SUM(${1:field})"
+        ],
+        "prefix" : "sum"
+      },
+      "Max" : {
+        "body" : [
+          "MAX(${1:field})"
+        ],
+        "prefix" : "max"
+      },
+      "Min" : {
+        "body" : [
+          "MIN(${1:field})"
+        ],
+        "prefix" : "min"
+      },
+      "Stddev_pop" : {
+        "body" : [
+          "STDDEV_POP(${1:field})"
+        ],
+        "prefix" : "stddev_pop"
+      },
+      "Stddev_samp" : {
+        "body" : [
+          "STDDEV_SAMP(${1:field})"
+        ],
+        "prefix" : "stddev_pop"
+      },
+      "Var_pop" : {
+        "body" : [
+          "VAR_POP(${1:field})"
+        ],
+        "prefix" : "var_pop"
+      },
+      "Var_samp" : {
+        "body" : [
+          "VAR_SAMP(${1:field})"
+        ],
+        "prefix" : "var_samp"
+      },
+      "Collect" : {
+        "body" : [
+          "COLLECT(${1:field})"
+        ],
+        "prefix" : "collect"
+      }
+      
+}

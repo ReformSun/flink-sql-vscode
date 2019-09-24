@@ -1,0 +1,44 @@
+{
+    "Year" : {
+        "body" : [
+          "YEAR"
+        ],
+        "prefix" : "year"
+      },
+      "Month" : {
+        "body" : [
+          "MONTH"
+        ],
+        "prefix" : "month"
+      },
+      "Week" : {
+        "body" : [
+          "WEEK"
+        ],
+        "prefix" : "week"
+      },
+      "Day" : {
+        "body" : [
+          "DAY"
+        ],
+        "prefix" : "day"
+      },
+      "Hour" : {
+        "body" : [
+          "HOUR"
+        ],
+        "prefix" : "hour"
+      },
+      "Minute" : {
+        "body" : [
+          "MINUTE"
+        ],
+        "prefix" : "minute"
+      },
+      "Second" : {
+        "body" : [
+          "SECOND"
+        ],
+        "prefix" : "second"
+      }
+}

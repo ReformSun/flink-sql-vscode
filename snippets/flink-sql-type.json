@@ -1,0 +1,123 @@
+{
+    "Varchar" : {
+        "body" : [
+          "VARCHAR"
+        ],
+        "prefix" : "varchar"
+      },
+      "Boolean" : {
+        "body" : [
+          "BOOLEAN"
+        ],
+        "prefix" : "boolean"
+      },
+      "Tiny int" : {
+        "body" : [
+          "TINYINT"
+        ],
+        "prefix" : "tinyint"
+      },
+      "Small int" : {
+        "body" : [
+          "SMALLINT"
+        ],
+        "prefix" : "smallint"
+      },
+      "Integer" : {
+        "body" : [
+          "INTEGER"
+        ],
+        "prefix" : "integer"
+      },
+      "Int" : {
+        "body" : [
+          "INT"
+        ],
+        "prefix" : "int"
+      },
+      "Big int" : {
+        "body" : [
+          "BIGINT"
+        ],
+        "prefix" : "bigint"
+      },
+      "Float" : {
+        "body" : [
+          "FLOAT"
+        ],
+        "prefix" : "float"
+      },
+      "Real" : {
+        "body" : [
+          "REAL"
+        ],
+        "prefix" : "real"
+      },
+      "Double" : {
+        "body" : [
+          "DOUBLE"
+        ],
+        "prefix" : "double"
+      },
+      "Decimal" : {
+        "body" : [
+          "DECIMAL"
+        ],
+        "prefix" : "decimal"
+      },
+      "Date" : {
+        "body" : [
+          "DATE"
+        ],
+        "prefix" : "date"
+      },
+      "Time" : {
+        "body" : [
+          "TIME"
+        ],
+        "prefix" : "time"
+      },
+      "Timestamp(3)" : {
+        "body" : [
+          "TIMESTAMP(3)"
+        ],
+        "prefix" : "timestamp(3)"
+      },
+      "Interval yeal to month" : {
+        "body" : [
+          "INTERVAL YEAR TO MONTH"
+        ],
+        "prefix" : "interval yeal to month"
+      },
+      "Interval day to second(3)" : {
+        "body" : [
+          "INTERVAL DAY TO SECOND(3)"
+        ],
+        "prefix" : "interval day to second(3)"
+      },
+      "Array" : {
+        "body" : [
+          "ARRAY"
+        ],
+        "prefix" : "array"
+      },
+      "Map" : {
+        "body" : [
+          "MAP"
+        ],
+        "prefix" : "map"
+      },
+      "Multiset" : {
+        "body" : [
+          "MULTISET"
+        ],
+        "prefix" : "multiset"
+      },
+      "Row" : {
+        "body" : [
+          "ROW"
+        ],
+        "prefix" : "row"
+      }
+  
+}

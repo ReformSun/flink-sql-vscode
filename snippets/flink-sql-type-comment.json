@@ -1,0 +1,116 @@
+{
+    "String Comment": {
+        "prefix": "string_comment",
+        "body": [
+            "STRING COMMENT '${1:comment}'"
+        ]
+    },
+    "Varchar Comment": {
+        "prefix": "varchar_comment",
+        "body": [
+            "VARCHAR COMMENT '${1:comment}'"
+        ]
+    },
+    "Char Comment": {
+        "prefix": "char_comment",
+        "body": [
+            "CHAR COMMENT '${1:comment}'"
+        ]
+    },
+    "Tiny int Comment": {
+        "prefix": "tinyint_comment",
+        "body": [
+            "TINYINT COMMENT '${1:comment}'"
+        ]
+    },
+    "Small int Comment": {
+        "prefix": "smallint_comment",
+        "body": [
+            "SMALLINT COMMENT '${1:comment}'"
+        ]
+    },
+    "int Comment": {
+        "prefix": "int_comment",
+        "body": [
+            "INT COMMENT '${1:comment}'"
+        ]
+    },
+    "big int Comment": {
+        "prefix": "bigint_comment",
+        "body": [
+            "BIGINT COMMENT '${1:comment}'"
+        ]
+    },
+    "float Comment": {
+        "prefix": "float_comment",
+        "body": [
+            "FLOAT COMMENT '${1:comment}'"
+        ]
+    },
+    "double Comment": {
+        "prefix": "double_comment",
+        "body": [
+            "DOUBLE COMMENT '${1:comment}'"
+        ]
+    },
+    "decimal Comment": {
+        "prefix": "decimal_comment",
+        "body": [
+            "DECIMAL COMMENT '${1:comment}'"
+        ]
+    },
+    "timestamp Comment": {
+        "prefix": "timestamp_comment",
+        "body": [
+            "TIMESTAMP COMMENT '${1:comment}'"
+        ]
+    },
+    "date Comment": {
+        "prefix": "date_comment",
+        "body": [
+            "DATE COMMENT '${1:comment}'"
+        ]
+    },
+    "interval Comment": {
+        "prefix": "interval_comment",
+        "body": [
+            "INTERVAL COMMENT '${1:comment}'"
+        ]
+    },
+    "Boolean Comment": {
+        "prefix": "boolean_comment",
+        "body": [
+            "BOOLEAN"
+        ]
+    },
+    "Binary Comment": {
+        "prefix": "binary_comment",
+        "body": [
+            "BINARY COMMENT '${1:comment}'"
+        ]
+    },
+    "Array Comment": {
+        "prefix": "array_comment",
+        "body": [
+            "ARRAY<${1:STRING}> COMMENT '${2:comment}'"
+        ]
+    },
+    "Map Comment": {
+        "prefix": "map_comment",
+        "body": [
+            "MAP<${1:STRING},${2:STRING}> COMMENT '${3:comment}'"
+        ]
+    },
+    "Struct Comment": {
+        "prefix": "struct_comment",
+        "body": [
+            "STRUCT<${1:column_names}:${2:STRING}, ${3:column_names}:${4:STRING}> COMMENT '${5:comment}'"
+        ]
+    },
+    "Union type Comment": {
+        "prefix": "uniontype_comment",
+        "body": [
+            "UNIONTYPE COMMENT '${1:comment}'"
+        ]
+    }
+}

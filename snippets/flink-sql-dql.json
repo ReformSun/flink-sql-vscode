@@ -1,0 +1,9 @@
+{
+    "Select columns from a table": {
+        "prefix": "select",
+        "body": [
+            "SELECT  ${1:column_names}",
+            "FROM    ${2:table_name};"
+        ]
+    } 
+}

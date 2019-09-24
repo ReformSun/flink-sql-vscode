@@ -1,0 +1,92 @@
+{
+    "Cast" : {
+        "body" : [
+          "CAST(${1:field} AS ${2:type})"
+        ],
+        "prefix" : "cast"
+      },
+      "Where" : {
+        "body" : [
+          "WHERE"
+        ],
+        "prefix" : "where"
+      },
+      "GROUP BY" : {
+        "body" : [
+          "GROUP BY"
+        ],
+        "prefix" : "group by"
+      },
+      "HAVING" : {
+        "body" : [
+          "HAVING"
+        ],
+        "prefix" : "having"
+      },
+      "ORDER BY" : {
+        "body" : [
+          "ORDER BY"
+        ],
+        "prefix" : "order by"
+      },
+      "LIMIT" : {
+        "body" : [
+          "LIMIT"
+        ],
+        "prefix" : "limit"
+      },
+      "UNION" : {
+        "body" : [
+          "UNION"
+        ],
+        "prefix" : "union"
+      },
+      "DISTINCT" : {
+        "body" : [
+          "DISTINCT"
+        ],
+        "prefix" : "distinct"
+      },
+      "LEFT JOIN" : {
+        "body" : [
+          "LEFT JOIN"
+        ],
+        "prefix" : "left join"
+      },
+      "RIGHT JOIN" : {
+        "body" : [
+          "RIGHT JOIN"
+        ],
+        "prefix" : "right join"
+      },
+      "FULL JOIN" : {
+        "body" : [
+          "FULL JOIN"
+        ],
+        "prefix" : "full join"
+      },
+      "INNER JOIN" : {
+        "body" : [
+          "INNER JOIN"
+        ],
+        "prefix" : "inner join"
+      },
+      "LATERAL TABLE" : {
+        "body" : [
+          "LATERAL TABLE"
+        ],
+        "prefix" : "lateral table"
+      },
+      "TABLE" : {
+        "body" : [
+          "TABLE"
+        ],
+        "prefix" : "table"
+      },
+      "UNNEST" : {
+        "body" : [
+          "UNNEST"
+        ],
+        "prefix" : "unnest"
+      }
+}

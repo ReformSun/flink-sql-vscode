@@ -1,0 +1,42 @@
+{
+    "Row Format Delimited All": {
+        "prefix": "row format all",
+        "body": [
+            "ROW FORMAT DELIMITED",
+            "FIELDS TERMINATED BY '${1:separator}'",
+            "COLLECTION ITEMS TERMINATED BY '${2:separator}'",
+            "MAP KEYS TERMINATED BY '${3:separator}'",
+            "LINES TERMINATED BY '${4:separator}'"
+        ]
+    },
+    "Row Format Delimited": {
+        "prefix": "row format",
+        "body": [
+            "ROW FORMAT DELIMITED"
+        ]
+    },
+    "FIELDS TERMINATED": {
+        "prefix": "fields terminated",
+        "body": [
+            "FIELDS TERMINATED BY '${1:separator}'"
+        ]
+    },
+    "COLLECTION ITEMS TERMINATED": {
+        "prefix": "collection items terminated",
+        "body": [
+            "COLLECTION ITEMS TERMINATED BY '${1:separator}'"
+        ]
+    },
+    "MAP TERMINATED": {
+        "prefix": "map terminated",
+        "body": [
+            "MAP KEYS TERMINATED BY '${1:separator}'"
+        ]
+    },
+    "LINES TERMINATED": {
+        "prefix": "lines terminated",
+        "body": [
+            "LINES TERMINATED BY '${1:separator}'"
+        ]
+    }
+}

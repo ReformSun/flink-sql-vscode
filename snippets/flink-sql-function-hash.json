@@ -1,0 +1,44 @@
+{
+    "MD5" : {
+        "body" : [
+          "MD5(${1:string})"
+        ],
+        "prefix" : "md5"
+      }, 
+      "SHA1" : {
+        "body" : [
+          "SHA1(${1:string})"
+        ],
+        "prefix" : "sha1"
+      }, 
+      "SHA224" : {
+        "body" : [
+          "SHA224(${1:string})"
+        ],
+        "prefix" : "sha224"
+      }, 
+      "SHA256" : {
+        "body" : [
+          "SHA256(${1:string})"
+        ],
+        "prefix" : "sha256"
+      }, 
+      "SHA384" : {
+        "body" : [
+          "SHA384(${1:string})"
+        ],
+        "prefix" : "sha384"
+      }, 
+      "SHA512" : {
+        "body" : [
+          "SHA512(${1:string})"
+        ],
+        "prefix" : "sha512"
+      }, 
+      "SHA2 two" : {
+        "body" : [
+          "SHA512(${1:string},${2:hashLength})"
+        ],
+        "prefix" : "sha2(string,hashLength)"
+      }
+}

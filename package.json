@@ -1,0 +1,90 @@
+{
+    "name": "flink-sql-test",
+    "version": "0.0.2",
+    "displayName": "Flink SQL Test",
+    "description": "支持Flink基本功能",
+    "publisher": "sun",
+    "author": {
+        "name": "sun ji hua"
+    },
+    "license": "MIT",
+    "icon": "extras/apache_flink.png",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "galleryBanner": {
+        "color": "#F2C45A",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ReformSun/flink-sql-vscode.git"
+    },
+    "homepage": "https://raw.githubusercontent.com/ReformSun/flink-sql-vscode/master/README.md",
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "Flink SQL", "Flink", "SQL"
+    ],
+    "preview": true,
+    "contributes": {
+        "languages": [{
+            "id": "flink-sql",
+            "aliases": ["FlinkSQL", "flink-sql", "Flink SQL"],
+            "extensions": [".fql"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "flink-sql",
+            "scopeName": "source.flink",
+            "path": "./syntaxes/flink.tmLanguage.json"
+        }],
+        "snippets": [
+            {
+                "language": "flink-sql",
+                "path": "./snippets/flink-sql-type.json"
+            },
+            {
+                "language": "flink-sql",
+                "path": "./snippets/flink-sql-time-unit.json"
+            },
+            {
+                "language": "flink-sql",
+                "path": "./snippets/flink-sql-dql.json"
+            },
+            {
+                "language": "flink-sql",
+                "path": "./snippets/flink-sql-window.json"
+            },
+            {
+                "language": "flink-sql",
+                "path": "./snippets/flink-sql-function.json"
+            },
+            {
+                "language": "flink-sql",
+                "path": "./snippets/flink-sql-function-Aggregate.json"
+            },
+            {
+                "language": "flink-sql",
+                "path": "./snippets/flink-sql-function-hash.json"
+            },
+            {
+                "language": "flink-sql",
+                "path": "./snippets/flink-sql-function-string.json"
+            },
+            {
+                "language": "flink-sql",
+                "path": "./snippets/flink-sql-function-comparison.json"
+            },
+            {
+                "language": "flink-sql",
+                "path": "./snippets/flink-sql-function-arithmetic.json"
+            },
+            {
+                "language": "flink-sql",
+                "path": "./snippets/flink-sql-function-logical.json"
+            }
+        ]
+    }
+}

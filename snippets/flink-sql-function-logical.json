@@ -1,0 +1,56 @@
+{
+    "Or" : {
+        "body" : [
+          "${1:boolean1} OR ${2:boolean2}"
+        ],
+        "prefix" : "or"
+      },
+      "And" : {
+        "body" : [
+          "${1:boolean1} AND ${2:boolean2}"
+        ],
+        "prefix" : "and"
+      },
+      "NOT boolean" : {
+        "body" : [
+          "NOT ${1:boolean}"
+        ],
+        "prefix" : "not"
+      },
+      "IS FALSE" : {
+        "body" : [
+          "${1:boolean} IS FALSE"
+        ],
+        "prefix" : "is false"
+      },
+      "IS NOT FALSE" : {
+        "body" : [
+          "${1:boolean} IS NOT FALSE"
+        ],
+        "prefix" : "is not false"
+      },
+      "IS TRUE" : {
+        "body" : [
+          "${1:boolean} IS TRUE"
+        ],
+        "prefix" : "is true"
+      },
+      "IS NOT TRUE" : {
+        "body" : [
+          "${1:boolean} IS NOT TRUE"
+        ],
+        "prefix" : "is not true"
+      },
+      "IS UNKNOWN" : {
+        "body" : [
+          "${1:boolean} IS UNKNOWN"
+        ],
+        "prefix" : "is unknown"
+      },
+      "IS NOT UNKNOWN" : {
+        "body" : [
+          "${1:boolean} IS NOT UNKNOWN"
+        ],
+        "prefix" : "is not unknown"
+      }
+}

@@ -1,0 +1,110 @@
+{
+    "value1 = value2" : {
+        "body" : [
+          "${1:value1} = ${2:value2}"
+        ],
+        "prefix" : "="
+      },
+      "value1 <> value2" : {
+        "body" : [
+          "${1:value1} <> ${2:value2}"
+        ],
+        "prefix" : "<>"
+      },
+      "value1 > value2" : {
+        "body" : [
+          "${1:value1} > ${2:value2}"
+        ],
+        "prefix" : ">"
+      },
+      "value1 < value2" : {
+        "body" : [
+          "${1:value1} < ${2:value2}"
+        ],
+        "prefix" : "<"
+      },
+      "value1 <= value2" : {
+        "body" : [
+          "${1:value1} <= ${2:value2}"
+        ],
+        "prefix" : "<="
+      },
+      "value1 >= value2" : {
+        "body" : [
+          "${1:value1} >= ${2:value2}"
+        ],
+        "prefix" : ">="
+      },
+      "value IS NULL" : {
+        "body" : [
+          "${1:value} IS NULL"
+        ],
+        "prefix" : "is null"
+      },
+      "value IS NOT NULL" : {
+        "body" : [
+          "${1:value} IS NOT NULL"
+        ],
+        "prefix" : "is not null"
+      },
+      "value1 IS DISTINCT FROM value2" : {
+        "body" : [
+          "${1:value1} IS DISTINCT FROM ${2:value2}"
+        ],
+        "prefix" : "is distinct from"
+      },
+      "value1 IS NOT DISTINCT FROM value2" : {
+        "body" : [
+          "${1:value1} IS NOT DISTINCT FROM ${2:value2}"
+        ],
+        "prefix" : "is not distinct from"
+      },
+      "value1 BETWEEN value2 AND value3" : {
+        "body" : [
+          "${1:value1} BETWEEN ${2:value2} AND ${3:value3}"
+        ],
+        "prefix" : "between"
+      },
+      "value1 NOT BETWEEN value2 AND value3" : {
+        "body" : [
+          "${1:value1} NOT BETWEEN ${2:value2} AND ${3:value3}"
+        ],
+        "prefix" : "not between"
+      },
+      "string1 LIKE string2" : {
+        "body" : [
+          "${1:string1} LIKE ${2:string2}"
+        ],
+        "prefix" : "like"
+      },
+      "string1 NOT LIKE string2" : {
+        "body" : [
+          "${1:string1} NOT LIKE ${2:string2}"
+        ],
+        "prefix" : "not like"
+      },
+      "string1 SIMILAR string2" : {
+        "body" : [
+          "${1:string1} SIMILAR ${2:string2}"
+        ],
+        "prefix" : "similar"
+      },
+      "string1 NOT SIMILAR string2" : {
+        "body" : [
+          "${1:string1} NOT SIMILAR ${2:string2}"
+        ],
+        "prefix" : "not similar"
+      },
+      "string1 IN (value2 [, value3]* )" : {
+        "body" : [
+          "${1:string1} IN (${2:string2},${3:string3}..)"
+        ],
+        "prefix" : "in"
+      },
+      "string1 NOT IN (value2 [, value3]* )" : {
+        "body" : [
+          "${1:string1} NOT IN (${2:string2},${3:string3}..)"
+        ],
+        "prefix" : "not in"
+      }
+}

@@ -1,0 +1,92 @@
+{
+    "Tumble" : {
+        "body" : [
+          "TUMBLE(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit})"
+        ],
+        "prefix" : "tumble"
+      },
+      "Hop" : {
+        "body" : [
+          "HOP(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit}, INTERVAL '${4:interval}' ${5:unit})"
+        ],
+        "prefix" : "hop"
+      },
+      "Session" : {
+        "body" : [
+          "SESSION(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit})"
+        ],
+        "prefix" : "session"
+      },
+    "Tumble_start" : {
+        "body" : [
+          "TUMBLE_START(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit})"
+        ],
+        "prefix" : "tumble_start"
+      },
+      "Hop_start" : {
+        "body" : [
+          "HOP_START(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit}, INTERVAL '${4:interval}' ${5:unit})"
+        ],
+        "prefix" : "hop_start"
+      },
+      "Session_start" : {
+        "body" : [
+          "SESSION_START(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit})"
+        ],
+        "prefix" : "session_start"
+      },
+      "Tumble_end" : {
+        "body" : [
+          "TUMBLE_END(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit})"
+        ],
+        "prefix" : "tumble_end"
+      },
+      "Hop_end" : {
+        "body" : [
+          "HOP_END(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit}, INTERVAL '${4:interval}' ${5:unit})"
+        ],
+        "prefix" : "hop_end"
+      },
+      "Session_end" : {
+        "body" : [
+          "SESSION_END(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit})"
+        ],
+        "prefix" : "session_end"
+      },
+      "Tumble_rowtime" : {
+        "body" : [
+          "TUMBLE_ROWTIME(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit})"
+        ],
+        "prefix" : "tumble_rowtime"
+      },
+      "Hop_rowtime" : {
+        "body" : [
+          "HOP_ROWTIME(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit}, INTERVAL '${4:interval}' ${5:unit})"
+        ],
+        "prefix" : "hop_rowtime"
+      },
+      "Session_rowtime" : {
+        "body" : [
+          "SESSION_ROWTIME(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit})"
+        ],
+        "prefix" : "session_rowtime"
+      },
+      "Tumble_proctime" : {
+        "body" : [
+          "TUMBLE_PROCTIME(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit})"
+        ],
+        "prefix" : "tumble_proctime"
+      },
+      "Hop_proctime" : {
+        "body" : [
+          "HOP_PROCTIME(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit}, INTERVAL '${4:interval}' ${5:unit})"
+        ],
+        "prefix" : "hop_proctime"
+      },
+      "Session_proctime" : {
+        "body" : [
+          "SESSION_PROCTIME(${1:time_attr}, INTERVAL '${2:interval}' ${3:unit})"
+        ],
+        "prefix" : "session_proctime"
+      }
+}
